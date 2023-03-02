@@ -11,6 +11,9 @@ async function displayUI() {
     signInButton.style = "display: none";
     var content = document.getElementById('content');
     content.style = "display: block";
+    
+    var btnShowEvents = document.getElementById('btnShowEvents');
+btnShowEvents.style = "display: block";
 }
 
 async function displayEvents() {
