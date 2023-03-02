@@ -4,7 +4,7 @@ const msalConfig = {
         clientId: 'a4b505ae-05f8-4199-871a-37cf40a1ecb7',
         // comment out if you use a multi-tenant AAD app
         authority: 'https://login.microsoftonline.com/ba18c5b0-7a13-44c1-97d2-9277ec61a255',
-        redirectUri: 'http://localhost:8080'
+        redirectUri: 'https://emncantoine.github.io/graph/index.html'
     }
 };
 const msalRequest = { scopes: [] };
