@@ -19,7 +19,7 @@ const msalClient = new msal.PublicClientApplication(msalConfig);
 // Log the user in
 async function signIn() {
     //const authResult = await msalClient.loginPopup(msalRequest);
-    const authResult = await msalClient.getAccountByUsername("abourgeois@emn-competences.fr");
+    const authResult = await msalClient.getAccountByUsername(msalRequest);
     sessionStorage.setItem('msalAccount', authResult.account.username);
 }
 //Get token from Graph
